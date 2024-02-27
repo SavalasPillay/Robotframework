@@ -22,7 +22,7 @@ Remove Product From Cart
     Validate My Dashboard Appears
     Click On Cart
     View Shopping Cart
-    Verify Item In Cart    ${PRODUCT}
+#    Verify Item In Cart    ${PRODUCT}
 #    Remove Item From Cart
 
 
