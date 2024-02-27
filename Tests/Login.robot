@@ -8,6 +8,9 @@ Suite Setup     Open Website
 Suite Teardown  Close All Browsers
 Test Template   Log Into Magento
 
+
+#robot -d Result/reports/Login Tests/Login.robot
+
 *** Test Cases ***
 Login${TESTNAME}
 
