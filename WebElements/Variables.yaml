@@ -1,0 +1,54 @@
+#Element Locators
+#URL:   http://live.techpanda.org/index.php/mobile.html
+#BROWSER:   chrome
+
+MagentoLogo:         //div[@class='page-header-container']//img[1]
+AccountButton:      //div[@class='account-cart-wrapper']/a[@href='http://live.techpanda.org/index.php/customer/account/']/span[@class='label']
+LoginButton:        //a[.='Log In']
+RegisterPage:       //a[.='Register']
+CreateAnAccountPage:  //h1[.='Create an Account']
+FirstNameTextBox:   //input[@id='firstname']
+LastNameTextBox:    //input[@id='lastname']
+EmailTextBox:       //input[@id='email_address']
+PasswordTextBox:    //input[@id='password']
+ConfirmPasswordTextBox:   //input[@id='confirmation']
+RegisterButton:       //div[@class='buttons-set']//span[1]/span[.='Register']
+ThankYou:           //span[.='Thank you for registering with Main Website Store.']
+RequiredError:    //div[@id='advice-placeHolder']
+
+ValidEmailAddress:  //div[@class='alert alert-danger scf-js-signup-error']
+CancelButton:       //button[.='Cancel']
+
+LoginPage:              //p[.='If you have an account with us, please log in.']
+EmailLoginTextBox:      //input[@id='email']
+PasswordLoginTextBox:   //input[@id='pass']
+LoginPageButton:        //button[@name='send']
+MyDashboard:            //h1[.='My Dashboard']
+RegistrationSuccessful: //div[@class='scf-js-signup-success']
+ClickHereToLogin:     //a[.='here']
+MyAccountButton:      //a[.='My Account']
+Categories:             //a[.='placeHolder']
+Products:               //a[.='placeHolder']
+AddToCartButton:        //button[@class='button btn-cart']/span[1]/span[.='Add to Cart']
+ProceedToCheckOut:      //ul[@class='checkout-types top']//button[@class='button btn-proceed-checkout btn-checkout']
+Cart:                   //div[@class='header-minicart']/a[@href='http://live.techpanda.org/index.php/checkout/cart/']
+ViewShoppingCart:       //a[contains(.,'View Shopping Cart')]
+RemoveItem:             //td[@class='a-center product-cart-remove last']/a[.='Remove Item']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
