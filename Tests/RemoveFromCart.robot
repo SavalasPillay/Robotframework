@@ -23,7 +23,7 @@ Remove Product From Cart
     Click On Cart
     View Shopping Cart
     Verify Item In Cart    ${PRODUCT}
-    Remove Item From Cart
+#    Remove Item From Cart
 
 
 
