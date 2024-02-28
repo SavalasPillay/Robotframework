@@ -34,6 +34,7 @@ ProceedToCheckOut:      //ul[@class='checkout-types top']//button[@class='button
 Cart:                   //div[@class='header-minicart']/a[@href='http://live.techpanda.org/index.php/checkout/cart/']
 ViewShoppingCart:       //a[contains(.,'View Shopping Cart')]
 RemoveItem:             //td[@class='a-center product-cart-remove last']/a[.='Remove Item']
+InvalidPassword:        //li//span[contains(text(),'placeHolder')]
 
 
 

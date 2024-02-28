@@ -16,11 +16,14 @@ Login${TESTNAME}
 
 *** Keywords ***
 Log Into Magento
-    [Arguments]    ${EMAIL}       ${PASSWORD}       ${MESSAGE}  	${MESSAGEID}
+    [Arguments]   ${Scenario}    ${EMAIL}    ${PASSWORD}       ${MESSAGE}  	${MESSAGEID}
     Click On Account
     Click On Login
     Validate Log In Page Appears
     Fill Log In Information      ${EMAIL}       ${PASSWORD}
+    Capture Page Screenshot
     Click Login Button
-    Validate My Dashboard Appears
-    Validate Error Message Appears      ${MESSAGE}  	${MESSAGEID}
+    Capture Page Screenshot
+    Run Keyword If    '${Scenario}' == 'Postive'              Validate My Dashboard Appears
+    ...     ELSE IF   '${Scenario}' == 'Negative'             Validate Error Message Appears      ${MESSAGE}  	${MESSAGEID}
+    ...     ELSE IF   '${Scenario}' == 'Invalid Password'     Validate Invalid Password           ${MESSAGE}  	${MESSAGEID}

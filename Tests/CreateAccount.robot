@@ -10,7 +10,7 @@ Test Template   Create A Magento Account
 
 *** Test Cases ***
 Create Account${TESTNAME}
-
+#robot -d Result/reports/CreateAccount Tests/CreateAccount.robot
 *** Keywords ***
 Create A Magento Account
     [Arguments]    ${FIRSTNAME}   ${LASTNAME}   ${EMAIL}    ${PASSWORD}  ${CONFIRMPASSWORD}     ${MESSAGE}     ${MESSAGEID}
